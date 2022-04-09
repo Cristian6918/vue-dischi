@@ -31,6 +31,7 @@ export default {
     padding:0;
     left:20px;
     top:20px;
+  
 
     img{
         width:100%;

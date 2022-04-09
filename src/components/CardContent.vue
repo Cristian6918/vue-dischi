@@ -33,6 +33,11 @@ export default {
     justify-content:center;
     flex-direction: column;
     cursor:pointer;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+   &:hover{
+       box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.664) 0px 5px 10px;
+   }
      }
 
 .image-container{

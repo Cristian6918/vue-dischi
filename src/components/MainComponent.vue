@@ -39,10 +39,8 @@ export default {
     methods:{
       loadData(){
         axios.get(this.url).then((response)=>{
-          console.log(response.data);
           if(response.status===200){
             this.albums=response.data.response;
-            console.log(this.albums[0]);
           }
 
         })
