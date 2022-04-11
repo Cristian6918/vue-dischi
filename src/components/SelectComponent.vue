@@ -23,7 +23,7 @@ export default {
         selectGenre(event){
             this.selected=event.target.value;
             this.$emit('filterByGenre',this.selected);
-            console.log(this.selected)
+           
         }
     }
 

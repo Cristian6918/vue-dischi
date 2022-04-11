@@ -67,7 +67,7 @@ export default {
       },
       filterSelect(albumGenre){
         this.albumGenre=albumGenre;
-        console.log('coap',this.albumGenre)
+        
         
       }
       
